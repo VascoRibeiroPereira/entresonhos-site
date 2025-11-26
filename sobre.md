@@ -19,5 +19,5 @@ O **Entre Sonhos** nasceu da vontade de juntar, num só lugar:
 
 Se quiseres acompanhar mais de perto:
 
-- 📬 **Newsletter & histórias completas:** [Entre Sonhos no Substack]({{ site.author.substack }})  
-- 📸 **Bastidores, leituras e devaneios:** [@blog_entre_sonhos]({{ site.author.instagram }})
+- 📬 **Newsletter & histórias completas:** [Entre Sonhos no Substack]({{ site.substack }})  
+- 📸 **Bastidores, leituras e devaneios:** [@blog_entre_sonhos]({{ site.instagram }})
