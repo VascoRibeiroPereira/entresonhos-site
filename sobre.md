@@ -4,8 +4,6 @@ title: "Sobre"
 permalink: /sobre/
 ---
 
-# Sobre mim
-
 Tenho 39 anos e vivo em **Sintra**.  
 Leitor compulsivo, escritor teimoso, sempre com um caderno por perto.
 
