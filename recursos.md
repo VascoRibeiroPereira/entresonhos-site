@@ -4,8 +4,6 @@ title: "Recursos & Produtos"
 permalink: /recursos/
 ---
 
-# Recursos & Produtos
-
 Quero que o **Entre Sonhos** seja mais do que um blog:  
 um sítio onde encontras coisas úteis e inspiradoras ligadas à leitura e à escrita.
 
