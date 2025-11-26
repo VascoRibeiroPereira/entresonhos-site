@@ -18,10 +18,10 @@ O **Entre Sonhos** é o meu ponto de encontro contigo:
 ### Lê e acompanha
 
 **Textos completos, capítulos e histórias em série:**  
-[Entre Sonhos no Substack]({{ site.author.substack }})
+[Entre Sonhos no Substack]({{ site.substack }})
 
 **Bastidores de leitura e escrita no dia a dia:**  
-[@blog_entre_sonhos]({{ site.author.instagram }})
+[@blog_entre_sonhos]({{ site.instagram }})
 
 ---
 
