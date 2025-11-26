@@ -1,0 +1,26 @@
+title: "Entre 1000 Sonhos"
+description: "Blog de escrita criativa, bastidores de livros e deambulações entre sonhos, Sintra e o resto do mundo."
+url: "https://entre1000sonhos.pt"
+
+author:
+  name: "Vasco Belo Pereira"
+  instagram: "https://www.instagram.com/blog_entre_sonhos"
+  substack: "https://entresonhos.substack.com"
+
+lang: "pt-PT"
+theme: minima
+
+# Páginas que aparecem no menu do topo
+header_pages:
+  - sobre.md
+  - livros.md
+  - recursos.md
+  - blog.md
+
+# Plugins suportados pelo GitHub Pages (opcionais mas úteis)
+plugins:
+  - jekyll-feed    # RSS
+  - jekyll-seo-tag # tags de SEO
+
+# Opção de permalink mais “bonita”
+permalink: /:categories/:title/
