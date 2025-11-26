@@ -32,6 +32,6 @@ Uma história com inspiração bíblica e apocalíptica, em que os selos não fe
 Enquanto os livros não chegam às prateleiras, podes ler:
 
 - 📝 **Textos, contos e capítulos em pré-publicação** no Substack:  
-  [Entre Sonhos]({{ site.author.substack }})
+  [Entre Sonhos]({{ site.substack }})
 
-Segue também o [Instagram]({{ site.author.instagram }}) para ver bastidores da escrita, mapas, cadernos e pequenas notas de processo.
+Segue também o [Instagram]({{ site.instagram }}) para ver bastidores da escrita, mapas, cadernos e pequenas notas de processo.
