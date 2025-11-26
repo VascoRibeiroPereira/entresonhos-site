@@ -11,6 +11,7 @@ lang: "pt-PT"
 theme: minima
 
 header_pages:
+  - index.md
   - sobre.md
   - livros.md
   - recursos.md
