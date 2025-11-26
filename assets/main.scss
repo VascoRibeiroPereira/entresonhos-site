@@ -1,10 +1,11 @@
 ---
 ---
 
-/* Usa o estilo base do tema minima */
+/* Importa o CSS base do tema minima */
 @import "minima";
 
-/* Paleta e base tipográfica */
+/* ====== Base geral ====== */
+
 body {
   background-color: #ffffff;
   color: #111827;
@@ -12,42 +13,69 @@ body {
   line-height: 1.7;
 }
 
-/* Wrapper mais estreito, tipo Substack */
+/* Coluna central mais estreita (tipo Substack) */
 .wrapper {
-  max-width: 760px;
+  max-width: 900px;
 }
 
-/* Header estilo barra branca com linha */
+/* ====== HEADER tipo Substack ====== */
+
 .site-header {
   background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
-  padding: 1rem 0 0.75rem;
+  margin-bottom: 0;
 }
 
-/* Título do site em serif, maiorzinho */
+.site-header .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* Título Entre Sonhos centrado e forte */
 .site-title,
 .site-title:visited {
   font-family: "Georgia", "Times New Roman", serif;
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 700;
   color: #111827;
+  text-align: center;
 }
 
-/* Navegação discreta */
+/* Barra de navegação logo abaixo do título */
+.site-nav {
+  margin-top: 0.25rem;
+}
+
+/* Links do menu ao estilo Substack: centrados, discretos */
 .site-nav .page-link {
-  color: #6b7280;
+  display: inline-block;
+  margin: 0 0.9rem;
+  padding: 0.25rem 0;
   font-size: 0.95rem;
+  color: #6b7280;
+  border-bottom: 2px solid transparent;
 }
 
 .site-nav .page-link:hover {
   color: #111827;
 }
 
-/* Conteúdo principal: sem “cartões”, só texto limpo */
+/* “Separador” ativo com sublinhado escuro */
+.site-nav .page-link.current-page {
+  color: #111827;
+  font-weight: 600;
+  border-bottom-color: #111827;
+}
+
+/* ====== Conteúdo ====== */
+
 .page-content {
   padding: 2rem 1rem 3rem;
 }
 
+/* Sem cartões nem sombras – só texto clean */
 .page,
 .post {
   background: transparent;
@@ -63,27 +91,17 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.1rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
 }
 
-/* Links em tom discreto */
-a {
-  color: #1d4ed8;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Lista de posts mais clean */
+/* Lista de posts simples como no Substack */
 .post-list {
   list-style: none;
   padding-left: 0;
@@ -94,7 +112,17 @@ a:hover {
   border-bottom: 1px solid #e5e7eb;
 }
 
-/* Footer simples, tipo Substack */
+/* Links estilo Substack (azul discreto) */
+a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer simples, cinzento claro */
 .site-footer {
   background: #ffffff;
   border-top: 1px solid #e5e7eb;
