@@ -4,115 +4,40 @@
 /* Importa o CSS base do tema minima */
 @import "minima";
 
-/* ====== Base geral ====== */
+/* ====== Base geral (fonte tipo Substack) ====== */
 
 body {
   background-color: #ffffff;
   color: #111827;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  font-size: 15px;           /* mais pequeno, estilo Substack */
+  line-height: 1.6;
 }
 
-/* Coluna central mais estreita (tipo Substack) */
+/* Coluna central relativamente estreita */
 .wrapper {
-  max-width: 900px;
+  max-width: 880px;
 }
 
-/* ====== HEADER tipo Substack ====== */
-
-.site-header {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
-  margin-bottom: 0;
-}
-
-.site-header .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-/* Título Entre Sonhos centrado e forte */
-.site-title,
-.site-title:visited {
-  font-family: "Georgia", "Times New Roman", serif;
-  font-size: 1.9rem;
-  font-weight: 700;
-  color: #111827;
-  text-align: center;
-}
-
-/* Barra de navegação logo abaixo do título */
-.site-nav {
-  margin-top: 0.25rem;
-}
-
-/* Links do menu ao estilo Substack: centrados, discretos */
-.site-nav .page-link {
-  display: inline-block;
-  margin: 0 0.9rem;
-  padding: 0.25rem 0;
-  font-size: 0.95rem;
-  color: #6b7280;
-  border-bottom: 2px solid transparent;
-}
-
-.site-nav .page-link:hover {
+/* Títulos usam a mesma família (sans) */
+h1, h2, h3, h4 {
+  font-family: inherit;
   color: #111827;
 }
 
-/* “Separador” ativo com sublinhado escuro */
-.site-nav .page-link.current-page {
-  color: #111827;
-  font-weight: 600;
-  border-bottom-color: #111827;
-}
-
-/* ====== Conteúdo ====== */
-
-.page-content {
-  padding: 2rem 1rem 3rem;
-}
-
-/* Sem cartões nem sombras – só texto clean */
-.page,
-.post {
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  padding: 0;
-}
-
-/* Títulos do conteúdo */
-h1, h2, h3 {
-  font-family: "Georgia", "Times New Roman", serif;
-  color: #111827;
-}
-
+/* Tamanhos de títulos mais contidos */
 h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
 }
 
-/* Lista de posts simples como no Substack */
-.post-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.post-list > li {
-  padding: 0.75rem 0;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-/* Links estilo Substack (azul discreto) */
+/* Links simples, azul discreto */
 a {
   color: #1d4ed8;
   text-decoration: none;
@@ -122,10 +47,105 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Footer simples, cinzento claro */
+/* ====== HEADER + NAVEGAÇÃO (estilo Substack) ====== */
+
+.site-header {
+  background: #ffffff;
+  border: none;              /* sem borda preta do tema */
+  margin-bottom: 0;
+}
+
+.site-header .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0;         /* a navegação já tem a sua própria margem */
+}
+
+/* Título do site centrado e sem serifa */
+.site-title,
+.site-title:visited {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+}
+
+/* Barra de navegação com separador em cima e em baixo */
+.site-nav {
+  margin-top: 0.6rem;
+  width: 100%;
+  border-top: 1px solid #e5e7eb;    /* cinzento claro */
+  border-bottom: 1px solid #e5e7eb; /* cinzento claro */
+  padding: 0.4rem 0;
+  text-align: center;
+}
+
+/* Links do menu: alinhados ao centro, espaçados */
+.site-nav .page-link {
+  display: inline-block;
+  margin: 0 1.1rem;
+  padding: 0.3rem 0;
+  font-size: 0.95rem;
+  color: #6b7280;
+  border-bottom: 2px solid transparent;
+}
+
+.site-nav .page-link:hover {
+  color: #111827;
+}
+
+/* Se algum dia tiveres uma classe "current-page" podes usar isto: */
+.site-nav .page-link.current-page {
+  color: #111827;
+  font-weight: 600;
+}
+
+/* ====== CONTEÚDO ====== */
+
+.page-content {
+  padding: 2rem 1rem 3rem;
+}
+
+/* Sem cartões, sem sombras – só texto limpo */
+.page,
+.post {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Lista de posts clean, como Substack */
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-list > li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e5e7eb; /* cinzento, não preto */
+}
+
+/* Opcional: pequeno “tag” se usares hero-tag na home */
+.hero-tag {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #6b7280;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ====== FOOTER ====== */
+
 .site-footer {
   background: #ffffff;
   border-top: 1px solid #e5e7eb;
   color: #6b7280;
-  padding-top: 1.5rem;
+  padding-top: 1.25rem;
 }
