@@ -3,9 +3,6 @@ layout: home
 title: "Entre Sonhos"
 ---
 
-<span class="hero-tag">entre sonhos</span>
-
-# Entre Sonhos
 
 Olá, eu sou o **Vasco**, escritor de Sintra.  
 Gosto de ler & escrever, deambulações, fragmentos e experiências do passado, presente e futuros possíveis.
