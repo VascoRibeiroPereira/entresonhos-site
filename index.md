@@ -16,10 +16,14 @@ O **Entre Sonhos** é o meu ponto de encontro contigo:
 - recomendações de leitura,
 - notícias e pequenas novidades para quem gosta de acompanhar o processo.
 
-👉 **Textos completos, capítulos e histórias em série:**  
+---
+
+### Lê e acompanha
+
+**Textos completos, capítulos e histórias em série:**  
 [Entre Sonhos no Substack]({{ site.author.substack }})
 
-👉 **Bastidores de leitura e escrita no dia a dia:**  
+**Bastidores de leitura e escrita no dia a dia:**  
 [@blog_entre_sonhos]({{ site.author.instagram }})
 
 ---
@@ -29,7 +33,7 @@ O **Entre Sonhos** é o meu ponto de encontro contigo:
 {% if site.posts.size == 0 %}
 Ainda não há posts publicados aqui. Em breve vais conseguir ler novidades diretamente neste site.
 {% else %}
-<ul>
+<ul class="post-list">
   {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
@@ -38,5 +42,5 @@ Ainda não há posts publicados aqui. Em breve vais conseguir ler novidades dire
   {% endfor %}
 </ul>
 
-<p><a href="{{ '/blog/' | relative_url }}">Ver todos os posts →</a></p>
+[Ver todos os posts →]({{ '/blog/' | relative_url }})
 {% endif %}
