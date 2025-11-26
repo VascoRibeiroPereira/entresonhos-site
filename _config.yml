@@ -1,11 +1,11 @@
 title: "Entre Sonhos"
 description: "Entre Sonhos – blog de escrita, bastidores de livros e deambulações criativas."
-url: "https://entre1000sonhos.pt"  # fica assim mesmo, quando ligares o domínio
+url: "https://entre1000sonhos.pt"
 
-author:
-  name: "Vasco Belo Pereira"
-  instagram: "https://www.instagram.com/blog_entre_sonhos"
-  substack: "https://entresonhos.substack.com"
+author: "Vasco Belo Pereira"
+
+instagram: "https://www.instagram.com/blog_entre_sonhos"
+substack: "https://entresonhos.substack.com"
 
 lang: "pt-PT"
 theme: minima
