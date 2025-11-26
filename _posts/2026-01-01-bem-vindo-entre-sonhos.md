@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bem-vindo ao Entre 1000 Sonhos"
+title: "Bem-vindo ao Entre Sonhos"
 ---
 
 Há muito tempo que precisava de um sítio que juntasse tudo:
@@ -9,7 +9,7 @@ Há muito tempo que precisava de um sítio que juntasse tudo:
 - as novidades dos meus livros,  
 - e os recursos que vou criando para quem gosta de ler e escrever.
 
-O **entre1000sonhos.pt** é esse lugar.
+O **Entre Sonhos** é esse lugar.
 
 Aqui vais encontrar:
 - atualizações sobre projetos em curso,
