@@ -4,7 +4,6 @@ title: "Livros"
 permalink: /livros/
 ---
 
-# Livros
 
 Aqui encontras os projetos de escrita que vivem **entre sonhos** (e insónias).
 
