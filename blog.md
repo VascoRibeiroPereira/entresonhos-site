@@ -9,14 +9,14 @@ Textos curtos, notícias e deambulações entre livros, escrita e rotina.
 
 Neste momento, a maior parte dos textos vive no Substack:
 
-👉 [Ler o Entre Sonhos no Substack]({{ site.author.substack }})
+👉 [Entre Sonhos no Substack]({{ site.substack }})
 
 ---
 
 ## Posts aqui no site
 
 {% if site.posts.size == 0 %}
-Ainda não há posts publicados diretamente aqui no site — por agora, podes ler em primeiro lugar no [Substack]({{ site.author.substack }}).
+Ainda não há posts publicados diretamente aqui no site — por agora, podes ler em primeiro lugar no [Substack]({{ site.substack }}).
 {% else %}
 <ul class="post-list">
   {% for post in site.posts %}
