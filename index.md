@@ -21,7 +21,7 @@ O **Entre Sonhos** é o meu ponto de encontro contigo:
 [Entre Sonhos]({{ site.substack }})
 
 **Bastidores de leitura e escrita no dia a dia:**  
-[@blog_entre_sonhos]({{ site.instagram }})
+[Instagram]({{ site.instagram }})
 
 ---
 
