@@ -6,14 +6,16 @@ permalink: /livros/
 
 # Livros
 
-Aqui encontras os projetos de escrita que vivem entre sonhos (e insónias).
+Aqui encontras os projetos de escrita que vivem **entre sonhos** (e insónias).
+
+---
 
 ## O Sonho *(em desenvolvimento)*
 
 Um romance de ficção com raízes em Sintra, onde a fronteira entre realidade, sonho e virtual deixa de ser assim tão clara.
 
-- 🌱 Gênero: fantasia / sci-fi
-- 🌍 Cenário: Sintra e outras camadas de realidade
+- 🌱 Género: fantasia / sci-fi  
+- 🌍 Cenário: Sintra e outras camadas de realidade  
 - 🎯 Tema: identidade, escolhas e o peso das histórias que contamos sobre nós
 
 > Em breve: sinopse completa, excerto e informações sobre edição/publicação.
