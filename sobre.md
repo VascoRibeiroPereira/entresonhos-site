@@ -14,7 +14,7 @@ Escrevo:
 - histórias que começam em Sintra e se desviam para outros mundos,
 - fragmentos de vida, hábitos, rotinas e processos criativos.
 
-O **Entre 1000 Sonhos** nasceu da vontade de juntar, num só lugar:
+O **Entre Sonhos** nasceu da vontade de juntar, num só lugar:
 - o blog de escrita criativa,
 - as novidades dos meus livros,
 - pequenos recursos e produtos para quem acompanha o meu trabalho.
