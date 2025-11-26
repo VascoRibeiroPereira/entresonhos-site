@@ -1,23 +1,25 @@
 ---
 layout: home
-title: "Entre 1000 Sonhos"
+title: "Entre Sonhos"
 ---
 
-# Entre 1000 Sonhos
+<span class="hero-tag">entre sonhos</span>
+
+# Entre Sonhos
 
 Olá, eu sou o **Vasco**, escritor de Sintra.  
 Gosto de ler & escrever, deambulações, fragmentos e experiências do passado, presente e futuros possíveis.
 
-Este espaço junta tudo o que anda a nascer **entre sonhos**:
-- bastidores dos meus livros,
+O **Entre Sonhos** é o meu ponto de encontro contigo:
+- bastidores dos livros em que estou a trabalhar,
 - textos e crónicas,
 - recomendações de leitura,
-- novidades para quem me acompanha.
+- notícias e pequenas novidades para quem gosta de acompanhar o processo.
 
-👉 **Lê textos completos e histórias em série no Substack:**  
+👉 **Textos completos, capítulos e histórias em série:**  
 [Entre Sonhos no Substack]({{ site.author.substack }})
 
-👉 **Acompanha o dia a dia de leitura e escrita no Instagram:**  
+👉 **Bastidores de leitura e escrita no dia a dia:**  
 [@blog_entre_sonhos]({{ site.author.instagram }})
 
 ---
