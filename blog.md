@@ -4,7 +4,6 @@ title: "Blog"
 permalink: /blog/
 ---
 
-# Blog
 
 Textos curtos, notícias e deambulações entre livros, escrita e rotina.
 
