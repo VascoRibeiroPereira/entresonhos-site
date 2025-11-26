@@ -12,10 +12,10 @@ theme: minima
 
 header_pages:
   - index.md
-  - sobre.md
   - livros.md
   - recursos.md
   - blog.md
+  - sobre.md
 
 plugins:
   - jekyll-feed
