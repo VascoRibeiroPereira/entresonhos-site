@@ -1,77 +1,62 @@
 ---
 ---
 
-/* Importa o tema minima original */
+/* Usa o estilo base do tema minima */
 @import "minima";
 
-/* A partir daqui, overrides de look & feel */
-
-/* Cores de marca – podes ajustar se quiseres outra vibe */
-:root {
-  --bg-color: #f9fafb;         /* fundo muito claro */
-  --card-bg: #ffffff;          /* fundo de cartões */
-  --accent: #7c3aed;           /* roxo suave / “sonho” */
-  --accent-soft: #ede9fe;
-  --text-main: #111827;        /* quase preto */
-  --text-muted: #6b7280;
-  --border-soft: #e5e7eb;
-}
-
-/* Fundo geral e tipografia */
+/* Paleta e base tipográfica */
 body {
-  background-color: var(--bg-color);
-  color: var(--text-main);
+  background-color: #ffffff;
+  color: #111827;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.7;
 }
 
-/* Cabeçalho (onde aparece "Entre Sonhos") */
+/* Wrapper mais estreito, tipo Substack */
+.wrapper {
+  max-width: 760px;
+}
+
+/* Header estilo barra branca com linha */
 .site-header {
-  border: none;
-  background: linear-gradient(120deg, #0f172a, #111827 40%, #4c1d95 100%);
-  padding: 1.5rem 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0 0.75rem;
 }
 
-.site-title {
-  font-family: "Georgia", "Times New Roman", serif;
-  font-size: 1.8rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
+/* Título do site em serif, maiorzinho */
 .site-title,
 .site-title:visited {
-  color: #f9fafb;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
 }
 
+/* Navegação discreta */
 .site-nav .page-link {
-  color: #e5e7eb;
+  color: #6b7280;
+  font-size: 0.95rem;
 }
 
 .site-nav .page-link:hover {
-  color: #ffffff;
+  color: #111827;
 }
 
-/* Conteúdo centrado e com “cartão” */
+/* Conteúdo principal: sem “cartões”, só texto limpo */
 .page-content {
-  padding: 2.5rem 1rem;
+  padding: 2rem 1rem 3rem;
 }
 
-.wrapper {
-  max-width: 900px;
-}
-
-/* “Cartão” principal para páginas e posts */
 .page,
 .post {
-  background: var(--card-bg);
-  border-radius: 1.25rem;
-  padding: 2.5rem 2rem;
-  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
-  border: 1px solid var(--border-soft);
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
 }
 
-/* Títulos */
+/* Títulos do conteúdo */
 h1, h2, h3 {
   font-family: "Georgia", "Times New Roman", serif;
   color: #111827;
@@ -83,13 +68,14 @@ h1 {
 }
 
 h2 {
+  font-size: 1.4rem;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
 }
 
-/* Links */
+/* Links em tom discreto */
 a {
-  color: var(--accent);
+  color: #1d4ed8;
   text-decoration: none;
 }
 
@@ -97,19 +83,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Pequeno destaque tipo “pill” para subtítulos */
-.hero-tag {
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-  background: var(--accent-soft);
-  color: #4c1d95;
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-/* Lista de posts mais limpa */
+/* Lista de posts mais clean */
 .post-list {
   list-style: none;
   padding-left: 0;
@@ -117,16 +91,13 @@ a:hover {
 
 .post-list > li {
   padding: 0.75rem 0;
-  border-bottom: 1px dashed var(--border-soft);
+  border-bottom: 1px solid #e5e7eb;
 }
 
-/* Footer */
+/* Footer simples, tipo Substack */
 .site-footer {
-  border: none;
-  color: var(--text-muted);
-}
-
-.site-footer .wrapper {
-  border-top: 1px solid var(--border-soft);
-  padding-top: 1.25rem;
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+  padding-top: 1.5rem;
 }
