@@ -36,5 +36,5 @@ um sítio onde encontras coisas úteis e inspiradoras ligadas à leitura e à es
 
 Se quiseres ser o primeiro a saber quando estes materiais estiverem disponíveis:
 
-- Subscreve a newsletter no Substack: [Entre Sonhos]({{ site.author.substack }})  
-- Acompanha os anúncios no Instagram: [@blog_entre_sonhos]({{ site.author.instagram }})
+- Subscreve a newsletter no Substack: [Entre Sonhos]({{ site.substack }})  
+- Acompanha os anúncios no Instagram: [@blog_entre_sonhos]({{ site.instagram }})
