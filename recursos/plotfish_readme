@@ -1,0 +1,174 @@
+# PlotFish – desbloqueador de problemas de uma história
+
+## 1. A dor: “Há qualquer coisa que não está a funcionar…”
+
+Se escreves fantasia, sci-fi ou histórias com mundos complexos, provavelmente já passaste por isto:
+
+- Há uma cena importante que não tem impacto.  
+- O clímax parece pouco expressivo.  
+- Uma personagem não parece consistente, mas não sabes bem porquê.  
+- O meio do livro arrasta e não consegues perceber onde “atacar“.
+
+Sabes que **há um problema**, sentes isso intuitivamente, mas quando tentas explicar, saem coisas vagas:
+
+> “Falta qualquer coisa.”  
+> “Não está a bater certo.”  
+> “Está aborrecido, mas não sei onde mexer.”
+
+É aqui que muitos autores ficam presos: reescrevem frases, trocam diálogos, mexem em detalhes… mas não chegam a perceber **a causa** do problema.
+
+O PlotFish existe para esse momento.
+
+---
+
+## 2. A ferramenta: o que é o PlotFish?
+
+O **PlotFish** é uma ferramenta gratuita, em formato web, criada para:
+
+> **Transformar um problema vago da tua história em 1–3 decisões claras sobre o que vais mudar.**
+
+Em vez de ficares preso em “não gosto disto”, o PlotFish ajuda-te a:
+
+- Descrever o problema da história de forma simples.  
+- Explorar hipóteses em 6 áreas essenciais (personagens, enredo, conflito, mundo, tema, ritmo).  
+- Aprofundar essas hipóteses com sucessivos “porquês”.  
+- Visualizar tudo num **diagrama em forma de peixe** (fishbone).  
+- Fechar com um pequeno **plano de mudanças concretas**.
+
+Não é uma app para escrever por ti.  
+É uma ferramenta para te dar clareza sobre **onde está o problema** e **o que faz sentido mexer a seguir**.
+
+---
+
+## 3. A origem: da indústria à escrita (fishbone / Ishikawa)
+
+O PlotFish inspira-se numa ferramenta clássica de resolução de problemas usada em:
+
+- indústria,  
+- qualidade,  
+- melhoria de processos,
+
+chamada **diagrama de Ishikawa** ou **fishbone diagram**.
+
+A ideia original é simples:
+
+- desenha-se uma espinha de peixe:  
+  - na cabeça fica o **problema**;  
+  - ao longo das espinhas laterais ficam as **possíveis causas**, agrupadas por categorias (máquina, método, material, pessoas, etc.);  
+- o objetivo é deixar de discutir o problema de forma vaga e passar a **ver as causas** de forma estruturada.
+
+O PlotFish pega nessa lógica e adapta-a ao contexto da escrita criativa:
+
+- em vez de “máquina/método/material/...”, usas categorias como  
+  **Personagens, Enredo, Conflito & stakes, Mundo / magia / tecnologia, Tema & emoção, Ritmo & estrutura**;  
+- em vez de falhas de produção, procuras **porque é que a tua história não está a produzir a emoção que queres**.
+
+É a mesma filosofia de fundo!
+
+---
+
+## 4. Como funciona o PlotFish
+
+A ferramenta guia-te por 4 passos principais:
+
+---
+
+### Passo 1 – Descrever o problema
+
+Começas por responder, em linguagem simples:
+
+> “O que é que não está a funcionar na história?”
+
+Exemplos:
+
+- “O clímax não tem impacto emocional.”  
+- “A morte da personagem X não comove o leitor.”  
+- “O meio do livro arrasta, parece enchimento.”  
+- “Não percebo bem o que está em jogo para o protagonista.”
+
+---
+
+### Passo 2 – Explorar hipóteses por área
+
+Depois, passas pelas 6 áreas:
+
+1. **Personagens** – motivações, decisões, reações, arcos.  
+2. **Enredo (plot)** – acontecimentos, viragens, consequência dos atos.  
+3. **Conflito & stakes** – o que está em jogo, o que se perde se falhar.  
+4. **Mundo / magia / tecnologia** – regras, custos, limites, coerência interna.  
+5. **Tema & emoção** – mensagem, tom, impacto emocional.  
+6. **Ritmo & estrutura** – partes que arrastam, saltos bruscos, enchimento.
+
+Em cada área que fizer sentido, fazes:
+
+- **Hipóteses**  
+  > “Talvez o problema seja que o protagonista aceita o risco demasiado depressa.”  
+
+- **Porquês** (até 3 níveis, se quiseres)  
+  - Porquê 1: “Porque não mostrei o que ele tem a perder.”  
+  - Porquê 2: “Porque nunca foquei a vida normal dele antes do clímax.”  
+  - Porquê 3: “Porque não defini claramente o medo central dele.”
+
+Assim, sais de “o clímax é insatisfatório” para algo como:
+
+> “O clímax é insatisfatório porque o leitor não percebe bem o que o protagonista arrisca perder, e isso acontece porque a vida normal e os medos dele nunca foram demonstrados com clareza.”
+
+---
+
+### Passo 3 – Resumo e diagrama em peixe
+
+Quando tiveres algumas hipóteses e porquês escritos:
+
+- Clicas em **“Gerar resumo”**  
+  → a ferramenta cria um texto com:
+  - o problema descrito;  
+  - as áreas onde investigaste;  
+  - as hipóteses e os “porquês” associados.  
+
+- Clicas em **“Gerar imagem fishbone”**  
+  → o PlotFish desenha um diagrama simples em forma de espinha de peixe, com:
+  - o problema na cabeça;  
+  - as 6 categorias ao longo dos ramos;  
+  - as causas (últimos “porquês” ou hipóteses) distribuídas pela espinha.
+
+Podes guardar o resumo, a imagem ou ambos.  
+A imagem já traz a marca **PlotFish · Entre Sonhos · ig: @blog_entre_sonhos** caso a queiras partilhar.
+
+Também podes **exportar o projeto como ficheiro** (`.json`) e voltar a carregá-lo mais tarde, noutro dispositivo.
+
+---
+
+### Passo 4 – O que vou mudar?
+
+Por fim, a ferramenta pede-te que escolhas **1 a 3 mudanças concretas** para testar:
+
+- “Reescrever a cena da morte da personagem X, focando nas reações de quem fica.”  
+- “Introduzir mais cedo o que o protagonista arrisca perder.”  
+- “Cortar a sequência do capítulo 12 que não avança o conflito.”
+
+Com um clique, copias esse pequeno plano e podes colá-lo:
+
+- no teu processador de texto,  
+- numa nota,  
+- ao lado da cena que vais editar.
+
+A ideia é simples: não ficas só com o mapa do problema, sais com **decisões de escrita**.
+
+---
+
+## 5. Porque criei o PlotFish
+
+O PlotFish nasce do cruzamento de duas coisas:
+
+- anos a usar ferramentas de **resolução de problemas** (como o fishbone) em contexto profissional,  
+- e a experiência de estar, muitas vezes, do lado de cá da página, a sentir que uma história “não está a funcionar” sem perceber logo porquê.
+
+Se também és do tipo de pessoa que gosta de perceber **a raiz das coisas**, o PlotFish é uma forma de trazer essa forma de pensar para a tua escrita.
+
+
+Se o usares e ele te ajudar a desbloquear uma história, adorava saber:
+
+- Partilha a tua espinha de peixe e identifica **@blog_entre_sonhos**.  
+- Ou manda mensagem a contar que problema estavas a tentar resolver.
+
+🐟📚
