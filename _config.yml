@@ -14,7 +14,6 @@ header_pages:
   - index.md
   - livros.md
   - recursos.md
-    - plotfish_readme.md
   - blog.md
   - sobre.md
 
