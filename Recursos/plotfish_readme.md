@@ -1,10 +1,8 @@
 ---
 layout: page
-title: PlotFish – destravar problemas de história
+title: PlotFish – desbloqueador de problemas de uma história
 permalink: /recursos/plotfish/
 ---
-
-# PlotFish – desbloqueador de problemas de uma história
 
 ## 1. A dor: “Há qualquer coisa que não está a funcionar…”
 
