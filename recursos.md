@@ -13,6 +13,7 @@ um sítio onde encontras coisas úteis e inspiradoras ligadas à leitura e à es
 
 - ✍️ **Reading Journal**
   Regista onde leste, o que leste e o que sentiste
+
   App disponível aqui: [Reading Journal](https://vascoribeiropereira.github.io/BookApp/)
 
 - 📚 **Guias de leitura & desafios**  
@@ -33,6 +34,7 @@ um sítio onde encontras coisas úteis e inspiradoras ligadas à leitura e à es
 
 - 🐟 **PlotFish**
   Ferramenta de brainstorming para autores de fantasia & sci-fi que querem desbloquear problemas da história que estão a escrever.
+
   App disponivel aqui: [PlotFish](https://vascoribeiropereira.github.io/PlotFish/)
   
 ---
