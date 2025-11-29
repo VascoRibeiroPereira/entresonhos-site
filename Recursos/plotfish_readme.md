@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PlotFish – destravar problemas de história
-permalink: /tools/plotfish/
+permalink: /recursos/plotfish/
 ---
 
 # PlotFish – desbloqueador de problemas de uma história
