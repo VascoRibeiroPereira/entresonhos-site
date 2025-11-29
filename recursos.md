@@ -35,6 +35,8 @@ um sítio onde encontras coisas úteis e inspiradoras ligadas à leitura e à es
 - 🐟 **PlotFish**
   Ferramenta de brainstorming para autores de fantasia & sci-fi que querem desbloquear problemas da história que estão a escrever.
 
+  [PlotFish Read me](https://vascoribeiropereira.github.io/entresonhos-site/recursos/plotfish/)
+
   App disponivel aqui: [PlotFish](https://vascoribeiropereira.github.io/PlotFish/)
   
 ---
