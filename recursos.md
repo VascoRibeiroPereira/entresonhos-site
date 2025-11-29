@@ -11,6 +11,9 @@ um sítio onde encontras coisas úteis e inspiradoras ligadas à leitura e à es
 
 ## Para leitores
 
+- ✍️ **Reading Journal**
+  Regista onde leste, o que leste e o que sentiste 
+
 - 📚 **Guias de leitura & desafios**  
   Pequenos PDFs com desafios de leitura, listas temáticas e sugestões de hábitos.  
   *(em preparação)*
@@ -25,16 +28,15 @@ um sítio onde encontras coisas úteis e inspiradoras ligadas à leitura e à es
 
 - ✏️ **Templates de planeamento de histórias**  
   Fichas de personagem, estruturas de capítulos, checklists de revisão.  
-  *(planeado para lançamento no Substack, com resumo aqui no site)*
+  *(em preparação)*
 
-- 🎧 **Sugestões de audiobooks & recursos de produtividade**  
-  Ligados a hábitos, rotina e criatividade.
+- 🐟 **Plotfish**
+  Ferramenta de brainstorming para autores de fantasia & sci-fi que querem desbloquear problemas da história que estão a escrever.
 
+  
 ---
 
 ## Fica a par das novidades
 
 Se quiseres ser o primeiro a saber quando estes materiais estiverem disponíveis:
-
-- Subscreve a newsletter no Substack: [Entre Sonhos]({{ site.substack }})  
 - Acompanha os anúncios no Instagram: [@blog_entre_sonhos]({{ site.instagram }})
