@@ -8,14 +8,13 @@ Tenho 39 anos e vivo em **Sintra**.
 Leitor compulsivo, escritor teimoso, sempre com um caderno por perto.
 
 Escrevo:
-- ficção com toques de **fantasia, sci-fi e realismo mágico**,
-- histórias que começam em Sintra e se desviam para outros mundos,
+- ficção com toques de **fantasia e sci-fi misturados com alguma plausibilidade**,
+- histórias que começam numa realidade confortável para o leitor e se desviam para outros mundos,
 - fragmentos de vida, hábitos, rotinas e processos criativos.
 
 O **Entre Sonhos** nasceu da vontade de juntar, num só lugar:
-- o blog de escrita criativa,
-- as novidades dos meus livros,
-- pequenos recursos e produtos para quem acompanha o meu trabalho.
+- diculgar o meu trabalho e quem sou eu,
+- pequenos recursos e produtos para leitores e escritores.
 
 Se quiseres acompanhar mais de perto:
 
