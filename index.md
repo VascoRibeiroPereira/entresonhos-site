@@ -8,7 +8,7 @@ title: "Início"
   <img src="{{ "/assets/me.jpg" | relative_url }}"
        alt="Vasco Belo Pereira"
        style="float:left; max-width:220px; width:40%; min-width:160px; height:auto; margin:0 16px 8px 0; border-radius:12px;">
-  Olá, eu sou o Vasco, sou químico, investigador e problem solver (naquilo que chamamos “day job”), pai… E sou um escritor de Sintra.
+  Olá, eu sou o Vasco, sou pai, químico, investigador e problem solver (naquilo que chamamos “day job”)… E sou um escritor de Sintra.
 </p>
 
 <p>
