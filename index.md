@@ -3,7 +3,7 @@ layout: home
 title: "Início"
 ---
 
-<div style="display:flex; gap:15px; align-items:flex-start; flex-wrap:wrap;">
+<div style="float:flex; gap:20px; align-items:flex-start; flex-wrap:wrap;">
 
   <img src="{{ "/assets/me.jpg" | relative_url }}"
        alt="Vasco Belo Pereira"
