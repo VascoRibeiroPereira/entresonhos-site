@@ -23,6 +23,3 @@ O **Entre Sonhos** é o meu ponto de encontro contigo em que divulgo:
 
 **Bastidores de leitura e escrita no dia a dia:**  
 [Instagram]({{ site.instagram }})
-
-**Blog no Substack:**  
-(Blog Entre Sonhos)[https://entresonhos.substack.com/]
