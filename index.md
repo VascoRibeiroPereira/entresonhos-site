@@ -4,7 +4,8 @@ title: "Início"
 ---
 
 
-Olá, eu sou o **Vasco**, sou químico e sou um escritor de Sintra.  
+![Eu](assets/me.jpg)
+Olá, eu sou o **Vasco**, sou químico, investigador e problem solver (naquilo que chamamos "day job"), pai... E sou um escritor de Sintra.  
 Gosto de ler & escrever, passear por sítios com história e imaginar passados e também futuros.
 
 Escrevi o livro "O Sonho" que está neste momento a ser revisto pela editora. Até ser publicado o meu livro... Vivo entre sonhos.
