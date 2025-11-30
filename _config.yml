@@ -14,7 +14,7 @@ header_pages:
   - index.md
   - livros.md
   - recursos.md
-  - blog.md
+  - [Entre Sonhos]({{ site.substack }})
   - sobre.md
 
 plugins:
