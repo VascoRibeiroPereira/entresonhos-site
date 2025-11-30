@@ -3,23 +3,33 @@ layout: home
 title: "Início"
 ---
 
-<div style="float:left; gap:20px; align-items:flex-start; flex-wrap:wrap;">
 
+<p>
   <img src="{{ "/assets/me.jpg" | relative_url }}"
        alt="Vasco Belo Pereira"
-       style="max-width:260px; width:35%; min-width:180px; height:auto; border-radius:12px;">
+       style="float:left; max-width:220px; width:40%; min-width:160px; height:auto; margin:0 16px 8px 0; border-radius:12px;">
+  Olá, eu sou o Vasco, sou químico, investigador e problem solver (naquilo que chamamos “day job”), pai… E sou um escritor de Sintra.
+</p>
 
-  <div markdown="1">
+<p>
+  Gosto de ler & escrever, passear por sítios com história e imaginar passados e também futuros.
+</p>
 
-Olá, eu sou o Vasco, sou químico, investigador e problem solver (naquilo que chamamos “day job”), pai… E sou um escritor de Sintra.  
-Gosto de ler & escrever, passear por sítios com história e imaginar passados e também futuros.
+<p>
+  Escrevi o livro “O Sonho” que está neste momento a ser revisto pela editora. Até ser publicado o meu livro… Vivo entre sonhos.
+</p>
 
-Escrevi o livro “O Sonho” que está neste momento a ser revisto pela editora. Até ser publicado o meu livro… Vivo entre sonhos.
+<p>
+  O Entre Sonhos é o meu ponto de encontro contigo em que divulgo:
+</p>
 
-O Entre Sonhos é o meu ponto de encontro contigo em que divulgo:
-- Os meus trabalhos literários,
-- bastidores das obras em que estou a trabalhar,
-- ferramentas úteis para leitores e escritores – desenvolvidas por mim.
+<ul>
+  <li>Os meus trabalhos literários,</li>
+  <li>bastidores das obras em que estou a trabalhar,</li>
+  <li>ferramentas úteis para leitores e escritores – desenvolvidas por mim.</li>
+</ul>
+
+<div style="clear:both;"></div>
 
 ---
 
