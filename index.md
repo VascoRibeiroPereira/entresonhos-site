@@ -40,7 +40,3 @@ title: "Início"
 
 **Bastidores de leitura e escrita no dia a dia:**  
 [Instagram]({{ site.instagram }})
-
-
-  </div>
-</div>
