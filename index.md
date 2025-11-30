@@ -4,40 +4,25 @@ title: "Início"
 ---
 
 
-Olá, eu sou o **Vasco**, escritor de Sintra.  
-Gosto de ler & escrever, deambulações, fragmentos e experiências do passado, presente e futuros possíveis.
+Olá, eu sou o **Vasco**, sou químico e sou um escritor de Sintra.  
+Gosto de ler & escrever, passear por sítios com história e imaginar passados e também futuros.
 
-O **Entre Sonhos** é o meu ponto de encontro contigo:
-- bastidores dos livros em que estou a trabalhar,
-- textos e crónicas,
-- recomendações de leitura,
-- notícias e pequenas novidades para quem gosta de acompanhar o processo.
+Escrevi o livro "O Sonho" que está neste momento a ser revisto pela editora. Até ser publicado o meu livro... Vivo entre sonhos.
+
+O **Entre Sonhos** é o meu ponto de encontro contigo em que divulgo:
+- Os meus trabalhos literários,
+- bastidores das obras em que estou a trabalhar,
+- ferramentas úteis para leitores e escritores - desenvolvidas por mim.
 
 ---
 
 ### Lê e acompanha
 
-**Textos completos, capítulos e histórias em série:**  
+**Pequenos contos e histórias:**  
 [Entre Sonhos]({{ site.substack }})
 
 **Bastidores de leitura e escrita no dia a dia:**  
 [Instagram]({{ site.instagram }})
 
----
-
-## Últimos textos do blog
-
-{% if site.posts.size == 0 %}
-Ainda não há posts publicados aqui. Em breve vais conseguir ler novidades diretamente neste site.
-{% else %}
-<ul class="post-list">
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
-      <small>— {{ post.date | date: "%d.%m.%Y" }}</small>
-    </li>
-  {% endfor %}
-</ul>
-
-[Ver todos os posts →]({{ '/blog/' | relative_url }})
-{% endif %}
+**Blog no Substack**
+(Blog Entre Sonhos)[https://entresonhos.substack.com/]
