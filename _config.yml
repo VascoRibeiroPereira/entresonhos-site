@@ -14,7 +14,7 @@ header_pages:
   - index.md
   - livros.md
   - recursos.md
-  - [Blog]({{ site.substack }})
+  - blog.md
   - sobre.md
 
 plugins:
