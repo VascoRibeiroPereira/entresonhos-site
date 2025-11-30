@@ -12,7 +12,7 @@ theme: minima
 
 header_pages:
   - index.md
-  - obras.md
+  - projetos.md
   - recursos.md
   - blog.md
   - sobre.md
