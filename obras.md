@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Livros"
-permalink: /livros/
+title: "Obras"
+permalink: /obras/
 ---
 
 
