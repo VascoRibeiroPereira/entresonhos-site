@@ -33,7 +33,7 @@ Capa minimalista elegante em estilo “Moleskine de autor”, interior limpo em 
 ![](https://assets.lulu.com/cover_thumbs/8/4/84jq4we-front-shortedge-384.jpg)
 ---
 
-## O Sonho *(em revisão na [Cordel D’ Prata](https://cordeldeprata.pt])*
+## O Sonho *(em revisão na [Cordel D’ Prata](https://cordeldeprata.pt]))*
 
 Um romance de ficção com raízes em Sintra, onde a fronteira entre realidade, sonho e virtual se esbate.
 
