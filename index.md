@@ -38,5 +38,5 @@ title: "Início"
 **Pequenos contos e histórias:**  
 [Entre Sonhos]({{ site.substack }})
 
-**Bastidores de leitura e escrita no dia a dia:**  
+**O que eu ando a ler... E a escrever:**  
 [Instagram]({{ site.instagram }})
