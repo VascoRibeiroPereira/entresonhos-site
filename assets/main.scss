@@ -68,15 +68,42 @@ a:hover {
   text-align: center;
 }
 
-/* Navegação com barras cinzentas escuras */
+.site-header {
+  background: #020617;
+  border: none;
+  margin-bottom: 0;
+  position: relative;   /* importante para posicionar as linhas */
+}
+
 .site-nav {
   margin-top: 0.6rem;
   width: 100%;
-  border-top: 1px solid #1f2937;      /* cinzento escuro */
-  border-bottom: 1px solid #1f2937;
   padding: 0.4rem 0;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
+
+/* Linhas horizontais a ocupar toda a largura da janela */
+.site-nav::before,
+.site-nav::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 100vw;          /* ocupa a largura da viewport */
+  transform: translateX(-50%);
+  height: 1px;
+  background: #1f2937;   /* mesmo cinzento escuro que tinhas */
+}
+
+.site-nav::before {
+  top: 0;
+}
+
+.site-nav::after {
+  bottom: 0;
+}
+
 
 .site-nav .page-link {
   display: inline-block;
