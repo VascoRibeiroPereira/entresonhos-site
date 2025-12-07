@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cores e estilo base -->
+  <!-- Tudo em cinzento-escuro quase preto (#111827), sem fundo -->
+
+  <!-- Anel exterior -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#111827" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"></circle>
+
+  <!-- Anel interior, dá mais detalhe sem pesar -->
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#111827" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></circle>
+
+  <!-- Cabeça da chave: círculo com “brilho” (pequena quebra no traço) -->
+  <path d="M210 218
+       A38 38 0 1 1 209.9 218" fill="none" stroke="#111827" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Pequeno corte na cabeça da chave (efeito highlight) -->
+  <path d="M234 232 A22 22 0 0 0 220 216" fill="none" stroke="#111827" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Haste da chave -->
+  <line x1="248" y1="256" x2="340" y2="256" stroke="#111827" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></line>
+
+  <!-- Dentes da chave com dois níveis, mais interessante visualmente -->
+  <polyline points="340,256 368,256 368,280 352,280 352,296" fill="none" stroke="#111827" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></polyline>
+
+  <!-- Pequeno “brilho”/estrela perto da ponta da chave -->
+  <path d="M382 240 L388 252 L400 258 L388 264 L382 276 L376 264 L364 258 L376 252 Z" fill="none" stroke="#111827" stroke-width="6" stroke-linejoin="round"></path>
+</svg>
