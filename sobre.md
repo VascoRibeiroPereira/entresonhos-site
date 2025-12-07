@@ -5,7 +5,7 @@ permalink: /sobre/
 ---
 
 Tenho 39 anos e vivo em **Sintra**.  
-Leitor compulsivo, escritor teimoso, sempre com um caderno por perto.
+Leitor compulsivo, escritor, teimoso e sempre com um caderno por perto.
 
 Escrevo:
 - ficção com toques de **fantasia e sci-fi misturados com alguma plausibilidade**,
@@ -13,7 +13,7 @@ Escrevo:
 - fragmentos de vida, hábitos, rotinas e processos criativos.
 
 O **Entre Sonhos** nasceu da vontade de juntar, num só lugar:
-- diculgar o meu trabalho e quem sou eu,
+- divulgar o meu trabalho e quem sou eu,
 - pequenos recursos e produtos para leitores e escritores.
 
 Se quiseres acompanhar mais de perto:
