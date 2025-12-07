@@ -1,31 +1,28 @@
 ---
 ---
 
-/* Importa o CSS base do tema minima */
 @import "minima";
 
-/* ====== Base geral (fonte tipo Substack) ====== */
+/* ====== Base geral – modo escuro ====== */
 
 body {
-  background-color: #ffffff;
-  color: #111827;
+  background-color: #020617;          /* quase preto */
+  color: #e5e7eb;                     /* texto quase branco */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  font-size: 15px;           /* mais pequeno, estilo Substack */
+  font-size: 15px;
   line-height: 1.6;
 }
 
-/* Coluna central relativamente estreita */
 .wrapper {
   max-width: 880px;
 }
 
-/* Títulos usam a mesma família (sans) */
+/* Títulos sem serifa, mas com bom contraste */
 h1, h2, h3, h4 {
   font-family: inherit;
-  color: #111827;
+  color: #f9fafb;
 }
 
-/* Tamanhos de títulos mais contidos */
 h1 {
   font-size: 1.6rem;
   margin-bottom: 0.5rem;
@@ -37,9 +34,9 @@ h2 {
   margin-bottom: 0.75rem;
 }
 
-/* Links simples, azul discreto */
+/* Links em laranja para contraste */
 a {
-  color: #1d4ed8;
+  color: #f97316;              /* laranja vivo */
   text-decoration: none;
 }
 
@@ -47,11 +44,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ====== HEADER + NAVEGAÇÃO (estilo Substack) ====== */
+/* ====== Header + navegação em dark ====== */
 
 .site-header {
-  background: #ffffff;
-  border: none;              /* sem borda preta do tema */
+  background: #020617;
+  border: none;
   margin-bottom: 0;
 }
 
@@ -60,55 +57,53 @@ a:hover {
   flex-direction: column;
   align-items: center;
   padding-top: 0.75rem;
-  padding-bottom: 0;         /* a navegação já tem a sua própria margem */
+  padding-bottom: 0;
 }
 
-/* Título do site centrado e sem serifa */
 .site-title,
 .site-title:visited {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #111827;
+  color: #f9fafb;
   text-align: center;
 }
 
-/* Barra de navegação com separador em cima e em baixo */
+/* Navegação com barras cinzentas escuras */
 .site-nav {
   margin-top: 0.6rem;
   width: 100%;
-  border-top: 1px solid #e5e7eb;    /* cinzento claro */
-  border-bottom: 1px solid #e5e7eb; /* cinzento claro */
+  border-top: 1px solid #1f2937;      /* cinzento escuro */
+  border-bottom: 1px solid #1f2937;
   padding: 0.4rem 0;
   text-align: center;
 }
 
-/* Links do menu: alinhados ao centro, espaçados */
 .site-nav .page-link {
   display: inline-block;
   margin: 0 1.1rem;
   padding: 0.3rem 0;
   font-size: 0.95rem;
-  color: #6b7280;
+  color: #9ca3af;
   border-bottom: 2px solid transparent;
 }
 
 .site-nav .page-link:hover {
-  color: #111827;
+  color: #e5e7eb;
 }
 
-/* Se algum dia tiveres uma classe "current-page" podes usar isto: */
+/* Se precisares mais tarde de marcar a página atual */
 .site-nav .page-link.current-page {
-  color: #111827;
+  color: #f9fafb;
   font-weight: 600;
+  border-bottom-color: #f9fafb;
 }
 
-/* ====== CONTEÚDO ====== */
+/* ====== Conteúdo ====== */
 
 .page-content {
   padding: 2rem 1rem 3rem;
 }
 
-/* Sem cartões, sem sombras – só texto limpo */
 .page,
 .post {
   background: transparent;
@@ -117,7 +112,7 @@ a:hover {
   padding: 0;
 }
 
-/* Lista de posts clean, como Substack */
+/* Lista de posts com separador escuro suave */
 .post-list {
   list-style: none;
   padding-left: 0;
@@ -125,27 +120,27 @@ a:hover {
 
 .post-list > li {
   padding: 0.75rem 0;
-  border-bottom: 1px solid #e5e7eb; /* cinzento, não preto */
+  border-bottom: 1px solid #1f2937;
 }
 
-/* Opcional: pequeno “tag” se usares hero-tag na home */
+/* Tag opcional na home */
 .hero-tag {
   display: inline-block;
   margin-bottom: 0.4rem;
   padding: 0.15rem 0.6rem;
   border-radius: 999px;
-  background: #f3f4f6;
-  color: #6b7280;
+  background: #111827;
+  color: #e5e7eb;
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
-/* ====== FOOTER ====== */
+/* ====== Footer ====== */
 
 .site-footer {
-  background: #ffffff;
-  border-top: 1px solid #e5e7eb;
-  color: #6b7280;
+  background: #020617;
+  border-top: 1px solid #1f2937;
+  color: #9ca3af;
   padding-top: 1.25rem;
 }
