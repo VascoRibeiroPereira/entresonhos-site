@@ -15,6 +15,8 @@ O **Entre Sonhos** é um sítio onde encontras coisas úteis e inspiradoras liga
 
   App disponível aqui: [Reading Journal](https://vascoribeiropereira.github.io/BookApp/)
 
+![RJ](https://github.com/VascoRibeiroPereira/entresonhos-site/blob/main/assets/RJ.png?raw=true)
+
 - 📚 **Guias de leitura & desafios**  
   Pequenos PDFs com desafios de leitura, listas temáticas e sugestões de hábitos.  
   *(em preparação)*
@@ -37,6 +39,8 @@ O **Entre Sonhos** é um sítio onde encontras coisas úteis e inspiradoras liga
   [PlotFish Read me](https://vascoribeiropereira.github.io/entresonhos-site/recursos/plotfish/)
 
   App disponivel aqui: [PlotFish](https://vascoribeiropereira.github.io/PlotFish/)
+
+  ![PlotFish](https://github.com/VascoRibeiroPereira/entresonhos-site/blob/main/assets/PlotFish.png?raw=true)
   
 ---
 
