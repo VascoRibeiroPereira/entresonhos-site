@@ -11,7 +11,7 @@ Aqui encontras os projetos de escrita que vivem **entre sonhos**... E não só.
 
 **Entre Sonhos Notebook**
 
-Disponível na loja online, (aqui)[https://www.lulu.com/account/projects/84jq4we].
+Disponível na loja online, [aqui](https://www.lulu.com/account/projects/84jq4we).
 
 O Entre Sonhos — Planner para Escritores é um caderno estruturado para te acompanhar em todas as fases da criação de um romance. Pensado para autores de fantasia, ficção científica, YA ou narrativa contemporânea, este planner reúne ferramentas práticas e intuitivas para transformar ideias soltas numa história coesa, envolvente e bem construída.
 
@@ -30,10 +30,10 @@ Capa minimalista elegante em estilo “Moleskine de autor”, interior limpo em 
 
 *Feito para quem constrói mundos, inventa personagens e quer chegar à versão mais forte da sua história.*
 
-!()[https://assets.lulu.com/cover_thumbs/8/4/84jq4we-front-shortedge-384.jpg]
+![](https://assets.lulu.com/cover_thumbs/8/4/84jq4we-front-shortedge-384.jpg)
 ---
 
-## O Sonho *(em revisão na (Cordel D’ Prata)[https://cordeldeprata.pt])*
+## O Sonho *(em revisão na [Cordel D’ Prata](https://cordeldeprata.pt])*
 
 Um romance de ficção com raízes em Sintra, onde a fronteira entre realidade, sonho e virtual se esbate.
 
