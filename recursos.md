@@ -29,9 +29,12 @@ O **Entre Sonhos** é um sítio onde encontras coisas úteis e inspiradoras liga
 
 ## Para quem escreve
 
-- ✏️ **Templates de planeamento de histórias**  
-  Fichas de personagem, estruturas de capítulos, checklists de revisão.  
-  *(em preparação)*
+- ✏️ **Tracker de escrita**  
+  Uma ferramenta visual que te permite ter uma percepção real dos teus objetivos de escrita.
+
+  App disponivel aqui: [Writing Tracker](https://vascoribeiropereira.github.io/Writing-Tracker/)
+
+  ![Tracker](https://github.com/VascoRibeiroPereira/entresonhos-site/blob/main/assets/tracker.png?raw=true)
 
 - 🐟 **PlotFish**
   Ferramenta de brainstorming para autores de fantasia & sci-fi que querem desbloquear problemas da história que estão a escrever.
