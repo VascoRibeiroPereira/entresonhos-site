@@ -9,6 +9,18 @@ Aqui encontras os projetos de escrita que vivem **entre sonhos**... E não só.
 
 ---
 
+## O Sonho *(em revisão na [Cordel D’ Prata](https://cordeldeprata.pt]))*
+
+Um romance de ficção com raízes em Sintra, onde a fronteira entre realidade, sonho e virtual se esbate.
+
+- 🌱 Género: fantasia / sci-fi  
+- 🌍 Cenário: Sintra no futuro  
+- 🎯 Tema: identidade, escolhas e história
+
+> Em breve: sinopse completa, excerto e informações sobre edição/publicação.
+
+---
+
 ## Entre Sonhos Notebook
 
 Disponível na loja online, [aqui](https://www.lulu.com/account/projects/84jq4we).
@@ -31,19 +43,10 @@ Capa minimalista elegante em estilo “Moleskine de autor”, interior limpo em 
 *Feito para quem constrói mundos, inventa personagens e quer chegar à versão mais forte da sua história.*
 
 ![](https://assets.lulu.com/cover_thumbs/8/4/84jq4we-front-shortedge-384.jpg)
----
 
-## O Sonho *(em revisão na [Cordel D’ Prata](https://cordeldeprata.pt]))*
-
-Um romance de ficção com raízes em Sintra, onde a fronteira entre realidade, sonho e virtual se esbate.
-
-- 🌱 Género: fantasia / sci-fi  
-- 🌍 Cenário: Sintra no futuro  
-- 🎯 Tema: identidade, escolhas e história
-
-> Em breve: sinopse completa, excerto e informações sobre edição/publicação.
 
 ---
+
 
 ## As 7 Vagas *(projeto de história / série)*
 
