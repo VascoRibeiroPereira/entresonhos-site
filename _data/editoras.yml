@@ -1,0 +1,96 @@
+# Repositório de editoras/projetos (Portugal) com interesse em ficção especulativa.
+# Última verificação: 2025-12-14
+# Campos sugeridos: nome, slug, tipo, local, generos, formatos, aceita_originais, estado, links, requisitos, notas
+- nome: "Editorial Divergência (Grupo Editorial Divergência)"
+  slug: "divergencia"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["editora"]
+  local: "Portugal"
+  generos: ["ficção científica", "fantasia", "terror", "ficção especulativa"]
+  formatos: ["romance", "novela", "contos", "antologias"]
+  aceita_originais: true
+  estado: "aberto (política publicada)"
+  links:
+    site: "https://divergencia.pt/"
+    submissoes: "https://divergencia.pt/submissoes/"
+    formulario: "https://autores.divergencia.pt/index.php?pag=submissoes"
+  requisitos: "Manuscritos inéditos em português; indicação de mínimo de 50.000 palavras (ver página de submissões)."
+  notas: "Boa aposta para sci‑fi / distopia / fantástico em geral."
+
+- nome: "Imaginauta (vertente editorial + projetos)"
+  slug: "imaginauta"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["projeto", "editora"]
+  local: "Portugal"
+  generos: ["ficção científica", "fantasia", "terror", "ficção especulativa"]
+  formatos: ["romance", "contos"]
+  aceita_originais: true
+  estado: "aberto (informação no site)"
+  links:
+    site: "https://imaginauta.net/"
+    sobre: "https://imaginauta.net/sobre/"
+    coleccao_barbante: "https://imaginauta.net/produtos/coleccao-barbante/"
+    premio_ataegina: "https://imaginauta.net/regulamento-premio-ataegina/"
+  requisitos: "Ver detalhes por iniciativa (ex.: Colecção Barbante/Prémio Ataegina) e contacto via site."
+  notas: "Excelente para contos; tem iniciativas recorrentes e foco em autores portugueses."
+
+- nome: "Revista Bang! (Saída de Emergência)"
+  slug: "revista-bang"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["revista"]
+  local: "Portugal"
+  generos: ["fantasia", "ficção científica", "horror", "género fantástico"]
+  formatos: ["contos", "não-ficção (ensaio/crítica/entrevista)"]
+  aceita_originais: true
+  estado: "aberto (chamada permanente no site)"
+  links:
+    site: "https://revistabang.com/"
+    submissoes: "https://revistabang.com/submissoes/"
+  requisitos: "Textos inéditos até 6000 palavras; envio por email conforme página de submissões."
+  notas: "Ótimo primeiro degrau para publicar contos e ganhar visibilidade no meio."
+
+- nome: "Edições Saída de Emergência"
+  slug: "saida-de-emergencia"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["editora"]
+  local: "Portugal"
+  generos: ["fantasia", "ficção científica", "terror", "género fantástico"]
+  formatos: ["romance", "contos", "novela"]
+  aceita_originais: true
+  estado: "tem canal de submissões (ver contactos)"
+  links:
+    site: "https://www.saidadeemergencia.com/"
+    contactos: "https://www.saidadeemergencia.com/contactos/"
+  requisitos: "Submissões por email (ver página de contactos)."
+  notas: "Editora de referência no fantástico em PT; boa para romance de género."
+
+- nome: "PACTO (revista) / CARMA (projeto/editorial)"
+  slug: "pacto-carma"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["revista", "projeto"]
+  local: "Portugal (Coimbra)"
+  generos: ["fantasia", "ficção científica", "terror", "ficção especulativa"]
+  formatos: ["contos", "poesia", "artes visuais"]
+  aceita_originais: "às vezes (open calls)"
+  estado: "open calls (confirmar prazos)"
+  links:
+    manifesto: "https://www.mlvieira.com/about-3"
+    instagram_pacto: "https://www.instagram.com/revistapacto/"
+    instagram_carma: "https://www.instagram.com/carma.editora/"
+  requisitos: "Normalmente por chamada aberta (open call) anunciada nas redes; confirmar email/formato em cada call."
+  notas: "Boa para texto experimental e ‘mind‑bending’ curto."
+
+- nome: "Fábrica do Terror (ficção curta + artes)"
+  slug: "fabrica-do-terror"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["revista/site"]
+  local: "Portugal"
+  generos: ["terror", "horror", "ficção especulativa (subgénero)"]
+  formatos: ["contos"]
+  aceita_originais: true
+  estado: "aberto (formulário)"
+  links:
+    site: "https://www.fabrica-do-terror.com/"
+    submissoes_contos: "https://www.fabrica-do-terror.com/submissao-de-contos/"
+  requisitos: "Submissão via formulário; ver FAQ/regras na página."
+  notas: "Foco em terror — útil se a tua distopia/weird encostar ao horror."

@@ -1,0 +1,123 @@
+\
+<div class="editoras-controls" style="margin: 1rem 0;">
+  <input id="editorasSearch" type="search" placeholder="Pesquisar (nome, género, formato)…" style="width:100%; padding:.6rem .8rem; border:1px solid #ddd; border-radius:.6rem;">
+  <div style="margin-top:.6rem; display:flex; gap:.5rem; flex-wrap:wrap;">
+    <select id="tipoFilter" style="padding:.4rem .6rem;">
+      <option value="">Tipo (todos)</option>
+      <option value="editora">Editora</option>
+      <option value="revista">Revista</option>
+      <option value="projeto">Projeto</option>
+    </select>
+    <select id="formatoFilter" style="padding:.4rem .6rem;">
+      <option value="">Formato (todos)</option>
+      <option value="romance">Romance</option>
+      <option value="novela">Novela</option>
+      <option value="contos">Contos</option>
+      <option value="antologias">Antologias</option>
+    </select>
+    <select id="generoFilter" style="padding:.4rem .6rem;">
+      <option value="">Género (todos)</option>
+      <option value="ficção científica">Ficção científica</option>
+      <option value="distopia">Distopia</option>
+      <option value="fantasia">Fantasia</option>
+      <option value="terror">Terror/Horror</option>
+      <option value="ficção especulativa">Ficção especulativa</option>
+    </select>
+  </div>
+</div>
+
+<ul id="editorasList" style="list-style:none; padding-left:0; display:grid; gap:1rem;">
+  {% for e in site.data.editoras %}
+  <li class="editora-card"
+      data-nome="{{ e.nome | downcase | escape }}"
+      data-tipo="{{ e.tipo | join: ',' | downcase | escape }}"
+      data-formatos="{{ e.formatos | join: ',' | downcase | escape }}"
+      data-generos="{{ e.generos | join: ',' | downcase | escape }}"
+      style="border:1px solid #eee; border-radius:1rem; padding:1rem;">
+    <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:1rem;">
+      <div>
+        <div style="font-weight:700; font-size:1.05rem;">{{ e.nome }}</div>
+        <div style="opacity:.8; font-size:.95rem; margin-top:.2rem;">
+          <span>{{ e.tipo | join: " · " }}</span>
+          {% if e.local %}<span> · {{ e.local }}</span>{% endif %}
+        </div>
+      </div>
+      {% if e.estado %}
+      <div style="font-size:.85rem; opacity:.8; white-space:nowrap;">{{ e.estado }}</div>
+      {% endif %}
+    </div>
+
+    <div style="margin-top:.7rem; display:flex; gap:.4rem; flex-wrap:wrap;">
+      {% for g in e.generos %}
+        <span style="font-size:.8rem; padding:.2rem .5rem; border:1px solid #ddd; border-radius:999px;">{{ g }}</span>
+      {% endfor %}
+      {% for f in e.formatos %}
+        <span style="font-size:.8rem; padding:.2rem .5rem; border:1px solid #ddd; border-radius:999px; opacity:.9;">{{ f }}</span>
+      {% endfor %}
+    </div>
+
+    {% if e.notas %}
+      <p style="margin:.8rem 0 .6rem 0;">{{ e.notas }}</p>
+    {% endif %}
+
+    <details style="margin-top:.3rem;">
+      <summary style="cursor:pointer;">Detalhes de submissão</summary>
+      <div style="margin-top:.6rem;">
+        {% if e.requisitos %}<p style="margin:.2rem 0;"><strong>Requisitos:</strong> {{ e.requisitos }}</p>{% endif %}
+        <p style="margin:.2rem 0;"><strong>Aceita originais:</strong> {{ e.aceita_originais }}</p>
+
+        {% if e.links %}
+        <p style="margin:.2rem 0;">
+          <strong>Links:</strong>
+          {% if e.links.site %}<a href="{{ e.links.site }}">site</a>{% endif %}
+          {% if e.links.submissoes %} · <a href="{{ e.links.submissoes }}">submissões</a>{% endif %}
+          {% if e.links.formulario %} · <a href="{{ e.links.formulario }}">formulário</a>{% endif %}
+          {% if e.links.contactos %} · <a href="{{ e.links.contactos }}">contactos</a>{% endif %}
+          {% if e.links.coleccao_barbante %} · <a href="{{ e.links.coleccao_barbante }}">Colecção Barbante</a>{% endif %}
+          {% if e.links.premio_ataegina %} · <a href="{{ e.links.premio_ataegina }}">Prémio Ataegina</a>{% endif %}
+          {% if e.links.submissoes_contos %} · <a href="{{ e.links.submissoes_contos }}">submissão de contos</a>{% endif %}
+          {% if e.links.manifesto %} · <a href="{{ e.links.manifesto }}">manifesto</a>{% endif %}
+          {% if e.links.instagram_pacto %} · <a href="{{ e.links.instagram_pacto }}">Instagram</a>{% endif %}
+        </p>
+        {% endif %}
+      </div>
+    </details>
+  </li>
+  {% endfor %}
+</ul>
+
+<script>
+(function () {
+  const search = document.getElementById('editorasSearch');
+  const tipo = document.getElementById('tipoFilter');
+  const formato = document.getElementById('formatoFilter');
+  const genero = document.getElementById('generoFilter');
+  const cards = Array.from(document.querySelectorAll('.editora-card'));
+
+  function norm(s){ return (s || '').toLowerCase(); }
+
+  function applyFilters() {
+    const q = norm(search.value);
+    const t = norm(tipo.value);
+    const f = norm(formato.value);
+    const g = norm(genero.value);
+
+    cards.forEach(card => {
+      const nome = card.dataset.nome || '';
+      const tipos = card.dataset.tipo || '';
+      const formatos = card.dataset.formatos || '';
+      const generos = card.dataset.generos || '';
+
+      const matchQ = !q || (nome + ' ' + tipos + ' ' + formatos + ' ' + generos).includes(q);
+      const matchT = !t || tipos.includes(t);
+      const matchF = !f || formatos.includes(f);
+      const matchG = !g || generos.includes(g);
+
+      card.style.display = (matchQ && matchT && matchF && matchG) ? '' : 'none';
+    });
+  }
+
+  [search, tipo, formato, genero].forEach(el => el.addEventListener('input', applyFilters));
+  applyFilters();
+})();
+</script>
