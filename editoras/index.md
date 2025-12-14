@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Editoras & Revistas — Ficção Especulativa (Portugal)"
+title: "Editoras & Revistas - Ficção Especulativa"
 permalink: /editoras/
 ---
 
