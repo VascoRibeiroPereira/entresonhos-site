@@ -94,3 +94,153 @@
     submissoes_contos: "https://www.fabrica-do-terror.com/submissao-de-contos/"
   requisitos: "Submissão via formulário; ver FAQ/regras na página."
   notas: "Foco em terror — útil se a tua distopia/weird encostar ao horror."
+
+- nome: "Edições Trebaruna (Grupo Editorial Divergência)"
+  slug: "trebaruna"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["editora"]
+  local: "Portugal"
+  generos: ["ficção contemporânea", "ficção histórica", "romance"]
+  formatos: ["romance", "novela", "contos"]
+  aceita_originais: true
+  estado: "aberto (política publicada no grupo)"
+  links:
+    submissoes: "https://divergencia.pt/submissoes/"
+    site_grupo: "https://divergencia.pt/quem-somos/"
+  requisitos: "Submissões de manuscritos inéditos em português; ver página do grupo (chancelas e géneros)."
+  notas: "Não é ‘género’ puro, mas pode ser útil para distopias mais literárias/‘mainstream crossover’."
+
+- nome: "E-nigma (revista digital + antologias)"
+  slug: "e-nigma"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["revista", "antologia"]
+  local: "Portugal"
+  generos: ["ficção científica", "fantástico", "ficção especulativa"]
+  formatos: ["contos", "artigos", "antologias"]
+  aceita_originais: true
+  estado: "aberto (página de contribuir)"
+  links:
+    site: "https://e-nigma.com.pt/"
+    contribuir: "https://e-nigma.com.pt/contribuir.html"
+    faq: "https://e-nigma.com.pt/FAQ.html"
+    antologias: "https://e-nigma.com.pt/antologias/antologias.html"
+  requisitos: "Regras variam por secção/antologia; ver ‘contribuir’ e FAQ."
+  notas: "Bom para ficção curta e para entrar em projetos temáticos (antologias)."
+
+- nome: "Especulatório (fanzine / revista de ficção especulativa)"
+  slug: "especulatorio"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["revista"]
+  local: "Portugal"
+  generos: ["ficção especulativa", "fantástico", "ficção científica", "terror"]
+  formatos: ["contos"]
+  aceita_originais: "provável (via email / facebook)"
+  estado: "atividade histórica (confirmar atualidade)"
+  links:
+    arquivo_pdf: "https://especulatorio.weebly.com/"
+  requisitos: "Nos PDFs do projeto é indicado contacto por email/Facebook; confirmar se continua ativo."
+  notas: "Útil como referência e possível mercado, mas convém validar se ainda recebe submissões."
+
+- nome: "KATHARTIKA (editora independente)"
+  slug: "kathartika"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["editora"]
+  local: "Portugal"
+  generos: ["fantasia", "ficção especulativa", "thriller", "literatura fantástica"]
+  formatos: ["romance", "novela"]
+  aceita_originais: "não claro (confirmar)"
+  estado: "catálogo ativo; política de submissões não evidente"
+  links:
+    site: "https://www.kathartika.pt/"
+    sobre: "https://www.kathartika.pt/sobre-nos/"
+    contacto: "https://www.kathartika.pt/contacto/"
+  requisitos: "Sem regras públicas óbvias; usar contacto para perguntar por política de submissões."
+  notas: "Vale a pena ter no radar (fantástico/impacto), mas o canal de originais pode ser por convite."
+
+- nome: "Vírgula d'Interrogação (editora independente)"
+  slug: "virgula-dinterrogacao"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["editora"]
+  local: "Portugal"
+  generos: ["ficção", "literatura contemporânea", "projetos editoriais independentes"]
+  formatos: ["romance", "contos"]
+  aceita_originais: "não claro (confirmar)"
+  estado: "catálogo ativo; ver contacto/redes"
+  links:
+    site: "https://virguladinterrogacao.com/"
+    loja: "https://virguladinterrogacao.com/loja-online/"
+  requisitos: "Confirmar via site/redes se há janela de submissão."
+  notas: "Editora recente e experimental — pode encaixar em projetos mind-bending dependendo da linha do momento."
+
+- nome: "BARCA (chancela de terror da Vírgula d'Interrogação)"
+  slug: "barca"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["chancela", "editora"]
+  local: "Portugal"
+  generos: ["terror", "horror", "gótico", "ficção especulativa (subgénero)"]
+  formatos: ["romance", "novela", "contos"]
+  aceita_originais: "não claro (confirmar)"
+  estado: "chancela dedicada ao terror (anunciada em 2024)"
+  links:
+    manifesto: "https://virguladinterrogacao.com/barca/"
+    catalogo: "https://virguladinterrogacao.com/product-category/barca/"
+  requisitos: "Confirmar via redes/contacto do grupo."
+  notas: "Bom radar se as tuas distopias/weird encostarem ao macabro."
+
+- nome: "Prémio António de Macedo (Divergência) — romance de ficção especulativa"
+  slug: "premio-antonio-de-macedo"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["concurso", "prémio"]
+  local: "Portugal"
+  generos: ["ficção especulativa", "ficção científica", "fantasia", "terror"]
+  formatos: ["romance"]
+  aceita_originais: true
+  estado: "edições anuais (ver edição corrente)"
+  links:
+    arquivo_submissoes: "https://divergencia.pt/category/submissoes/"
+    edicao_2026: "https://divergencia.pt/premio-antonio-de-macedo-2026/"
+  requisitos: "Ver regulamento da edição corrente."
+  notas: "Se tens um romance especulativo, este prémio pode ser o caminho mais ‘objetivo’ para publicação."
+
+- nome: "Prémio Ataegina (Imaginauta + projetos) — conto de ficção especulativa"
+  slug: "premio-ataegina"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["concurso", "prémio"]
+  local: "Portugal"
+  generos: ["ficção especulativa", "weird", "ficção científica", "fantasia", "terror"]
+  formatos: ["contos"]
+  aceita_originais: true
+  estado: "concurso recorrente (ver regulamento)"
+  links:
+    regulamento: "https://imaginauta.net/regulamento-premio-ataegina/"
+    site: "https://imaginauta.net/"
+  requisitos: "Ver regulamento (e prazos da edição em vigor)."
+  notas: "Excelente alvo para contos mind-bending; dá-te visibilidade no ecossistema."
+
+- nome: "Sci-Fi Lx (festival / comunidade) — networking e oportunidades"
+  slug: "sci-fi-lx"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["festival", "comunidade"]
+  local: "Lisboa, Portugal"
+  generos: ["ficção científica", "fantasia", "ficção especulativa"]
+  formatos: ["eventos", "palestras"]
+  aceita_originais: "n/a"
+  estado: "atividade por eventos"
+  links:
+    site: "https://www.scifilx.pt/"
+  requisitos: "Para oportunidades (concursos/antologias), acompanhar notícias/edições."
+  notas: "Útil para conhecer gente do meio e apanhar calls/concursos quando abrem."
+
+- nome: "estrema (revista interdisciplinar) — chamada temática sobre ficção especulativa"
+  slug: "estrema"
+  ultima_verificacao: "2025-12-14"
+  tipo: ["revista académica"]
+  local: "Portugal"
+  generos: ["ficção especulativa (crítica)", "ensaio", "recensão"]
+  formatos: ["artigos", "recensões"]
+  aceita_originais: true
+  estado: "chamada temática (2025)"
+  links:
+    chamada: "https://estrema.letras.ulisboa.pt/ojs/index.php/estrema/announcement/view/11"
+  requisitos: "Submissões académicas (não ficção)."
+  notas: "Não é para publicar ficção, mas pode dar visibilidade se também escreveres crítica/ensaio."
