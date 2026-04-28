@@ -16,7 +16,7 @@ title: "Início"
 </p>
 
 <p>
-  Escrevi o livro “O Sonho” que está neste momento a ser revisto pela editora. Até ser publicado o meu livro… Vivo entre sonhos.
+  Escrevi o livro “O Sonho”.
 </p>
 
 <p>
@@ -36,8 +36,17 @@ title: "Início"
 
 ## Lê e acompanha
 
+**Os meus livros**
+[Livro O Sonho](https://cordeldeprata.pt/livraria/o-sonho/)
+
+Vê também o jogo! [Jogo O Sonho](https://osonho.entre1000sonhos.pt/)
+
 **Pequenos contos e histórias:**  
 [Entre Sonhos]({{ site.substack }})
 
 **O que eu ando a ler... E a escrever:**  
 [Instagram]({{ site.instagram }})
+
+
+
+
