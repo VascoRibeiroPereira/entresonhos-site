@@ -36,10 +36,13 @@ title: "Início"
 
 ## Lê e acompanha
 
-**Os meus livros**
+**Os meus livros**  
+
 [Livro O Sonho](https://cordeldeprata.pt/livraria/o-sonho/)
 
-Vê também o jogo! [Jogo O Sonho](https://osonho.entre1000sonhos.pt/)
+Vê também o jogo!  
+
+[Jogo O Sonho](https://osonho.entre1000sonhos.pt/)
 
 **Pequenos contos e histórias:**  
 [Entre Sonhos]({{ site.substack }})
