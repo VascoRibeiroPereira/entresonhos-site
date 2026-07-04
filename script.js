@@ -1,0 +1,7 @@
+const ETSY_URL = "";
+// Quando a loja estiver pronta, coloca aqui o URL público da Etsy.
+// Exemplo: const ETSY_URL = "https://www.etsy.com/shop/NOME_DA_LOJA";
+function initYear(){const year=document.querySelector("[data-year]");if(year)year.textContent=new Date().getFullYear()}
+function initEtsyLink(){const link=document.querySelector("[data-etsy-link]");if(!link)return;if(ETSY_URL&&ETSY_URL.startsWith("http")){link.href=ETSY_URL;link.textContent="Abrir loja Etsy";link.classList.remove("is-disabled");link.removeAttribute("aria-disabled");link.setAttribute("target","_blank");link.setAttribute("rel","noopener")}}
+function initAudio(){const toggle=document.querySelector("[data-audio-toggle]");const label=document.querySelector("[data-audio-label]");const src=document.body.dataset.audioSrc;if(!toggle||!src)return;const audio=new Audio(src);audio.loop=true;audio.volume=.26;let isOn=false;function setState(nextState){isOn=nextState;toggle.classList.toggle("is-on",isOn);toggle.setAttribute("aria-pressed",String(isOn));if(label)label.textContent=isOn?"Som ligado":"Som";try{localStorage.setItem("entreSonhosAudio",isOn?"on":"off")}catch(_){}}async function playAudio(){try{await audio.play();setState(true)}catch(error){console.warn("O áudio foi bloqueado pelo browser ou não está disponível:",error);setState(false)}}function stopAudio(){audio.pause();setState(false)}toggle.addEventListener("click",()=>{if(isOn){stopAudio()}else{playAudio()}})}
+document.addEventListener("DOMContentLoaded",()=>{initYear();initEtsyLink();initAudio()});

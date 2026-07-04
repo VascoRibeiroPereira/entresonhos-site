@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://entre1000sonhos.pt/sitemap.xml
